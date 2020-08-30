@@ -1,5 +1,5 @@
 body {
-    background-color:lightgoldenrodyellow;
+    background-color: lightgoldenrodyellow;
 }
 
 #container {
@@ -26,7 +26,7 @@ body {
 ul {
     display: flex;
     justify-content: space-between;
-    width: 100% ;
+    width: 100%;
 
 }
 
@@ -39,7 +39,7 @@ img {
 }
 
 #welcome {
-    background-image:url('assets/ornament-3662184_960_720.webp');
+    background-image: url('assets/ornament-3662184_960_720.webp');
     background-size: cover;
     width: 2000px;
     height: 500px;
@@ -54,3 +54,81 @@ img {
 
 }
 
+#histoire {
+    font-family: Garuda;
+    font-size: 20px;
+}
+
+#family {
+    font-family: Garuda;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+#personnages {
+    display: flex;
+    justify-content: center;
+}
+
+.personnage {
+    flex-direction: column;
+    display: flex;
+    padding: 20px;
+    width: 33%;
+
+}
+
+
+#divroiphoto {
+    display: flex;
+    justify-content: center;
+}
+
+#divreinephoto {
+    display: flex;
+    justify-content: center;
+}
+
+#divprincessephoto {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#roiphoto {
+    height: 550px;
+    width: 400px;
+}
+
+#reinephoto {
+    height: 550px;
+    width: 400px;
+}
+
+#princessephoto {
+    height: 550px;
+    width: 400px;
+}
+
+#roinom {
+    display: flex;
+    justify-content: center;
+    font-family: Ani;
+    color: red;
+}
+
+#reinenom {
+    display: flex;
+    justify-content: center;
+    font-family: Ani;
+    color: red;
+}
+
+#princessenom {
+    display: flex;
+    justify-content: center;
+    font-family: Ani;
+    color: red;
+}
