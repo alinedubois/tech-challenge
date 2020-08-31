@@ -221,3 +221,19 @@ td {
     font-family: Garuda;
     font-size: 40px;
 }
+
+
+#titrecontact {
+    font-size: 30px;
+    font-family: Garuda;
+}
+
+#contactForm{
+    font-family: Dialog;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+
+}
+
