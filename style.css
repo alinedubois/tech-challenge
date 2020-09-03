@@ -110,6 +110,7 @@ img {
 }
 
 #welcome {
+
     background-image: url('assets/ornament-3662184_960_720.webp');
     background-size: cover;
     width: 2000px;
@@ -126,9 +127,15 @@ img {
 }
 
 #histoire {
-    font-family: Garuda;
     font-size: 20px;
+
 }
+
+h2 {
+    font-family: Lobster, sans-serif;
+    font-size: 40px;
+}
+
 
 #family {
     font-family: Garuda;
@@ -266,3 +273,7 @@ tr {
     flex-direction: column;
 }
 
+#RF {
+    display: flex;
+    justify-content: center;
+}
