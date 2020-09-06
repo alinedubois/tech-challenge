@@ -113,14 +113,13 @@ img {
 
     background-image: url('assets/ornament-3662184_960_720.webp');
     background-size: cover;
-    width: 2000px;
     height: 500px;
 
     display: flex;
     justify-content: center;
     text-align: center;
     line-height: 450px;
-    font-family: Ani;
+    font-family: Raleway, sans-serif;
     font-size: 28px;
     color: white;
 
@@ -128,7 +127,6 @@ img {
 
 #histoire {
     font-size: 20px;
-
 }
 
 h2 {
@@ -162,8 +160,7 @@ li {
     flex-direction: column;
     display: flex;
     padding: 20px;
-    width: 33%;
-
+    width: 30%;
 }
 
 
@@ -198,26 +195,13 @@ li {
     width: 400px;
 }
 
-#roinom {
+.nompersonnage {
     display: flex;
     justify-content: center;
-    font-family: Ani;
+    font-family: Raleway, sans-serif;
     color: red;
 }
 
-#reinenom {
-    display: flex;
-    justify-content: center;
-    font-family: Ani;
-    color: red;
-}
-
-#princessenom {
-    display: flex;
-    justify-content: center;
-    font-family: Ani;
-    color: red;
-}
 
 table {
     border-collapse: collapse;
@@ -272,11 +256,9 @@ tr {
     padding: 50px;
     display: flex;
     justify-content: center;
-    width: 100%;
 }
 
 #contact {
-    width: 100%;
     justify-content: center;
     display: flex;
     flex-direction: column;
